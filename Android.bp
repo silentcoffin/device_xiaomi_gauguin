@@ -1,0 +1,7 @@
+// soong_namespace defines a namespace for Soong build modules.
+// This declaration places the contained modules in the root namespace.
+// It helps to organize build modules and prevent name collisions.
+soong_namespace {
+    // Namespace content goes here.
+    // For example, module definitions and build rules specific to this namespace.
+}
