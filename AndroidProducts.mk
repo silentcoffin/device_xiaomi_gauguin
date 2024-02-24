@@ -8,9 +8,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10i
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Path to the device-specific makefile
+# Path to the CarbonROM-specific device makefile
 PRODUCT_MAKEFILES := \\
-    $(LOCAL_DIR)/device_xiaomi_$(LOCAL_DEVICE).mk
+    $(LOCAL_DIR)/$(LOCAL_PRODUCT_NAME)_$(LOCAL_DEVICE).mk
 
 # Include CarbonROM common configurations
 $(call inherit-product, vendor/$(LOCAL_PRODUCT_NAME)/config/common_full_phone.mk)
